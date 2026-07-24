@@ -1,0 +1,12 @@
+{
+  "name": "mpu6050-tilt-monitor-sito",
+  "version": "1.0.0",
+  "description": "Sito esterno che riceve i dati dall'ESP32 (MPU-6050) e li mostra in 3D",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
